@@ -5,13 +5,13 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /Users/lucasnaidu/Desktop/data/wordpress
+      device: /home/lnaidu/Desktop/data/wordpress
       o: bind
   mariadb_data:
     driver: local
     driver_opts:
       type: none
-      device: /Users/lucasnaidu/Desktop/data/mariadb
+      device: /home/lnaidu/Desktop/data/mariadb
       o: bind
 
 networks:
